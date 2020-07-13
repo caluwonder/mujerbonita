@@ -61,8 +61,6 @@ a:hover {
 .textnav {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem; }
-  .textnav a {
-    padding-left: 2.5rem !important; }
 
 .container-fluid {
   padding: 0; }
@@ -70,16 +68,10 @@ a:hover {
 .dropdown-menu {
   font-size: 0.8rem !important; }
 
-/*seccion servicios*/
 .circlemain {
   background-color: #98AA2D;
-<<<<<<< HEAD
   width: 140px;
   height: 140px;
-=======
-  width: 150px;
-  height: 150px;
->>>>>>> 0109a3a5d8161211dfb31d24070a54222007bad8
   border-radius: 100px;
   align-content: center;
   display: grid;
@@ -440,6 +432,8 @@ a:hover {
     font-size: 15px; } }
 
 @media (min-width: 768px) {
+  .textnav a {
+    padding-left: 2.5rem !important; }
   .circlemain {
     width: 200px;
     height: 200px; }
@@ -459,6 +453,8 @@ a:hover {
         background-color: #98AA2D; } }
 
 @media (min-width: 992px) {
+  .textnav a {
+    padding-left: 2.5rem !important; }
   .bottom {
     margin-bottom: 0 !important; }
   .txtserv {
@@ -475,6 +471,8 @@ a:hover {
     height: 200px; } }
 
 @media (min-width: 1200px) {
+  .textnav a {
+    padding-left: 2.5rem !important; }
   .circlemain {
     width: 200px;
     height: 200px; }

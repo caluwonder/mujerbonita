@@ -77,9 +77,6 @@ a:hover{
 .textnav{
 	font-family: $font2;
     font-size: 0.8rem;
-    a{
-        padding-left: 2.5rem !important;
-    }
 }
 
 .container-fluid {
@@ -88,7 +85,6 @@ a:hover{
 .dropdown-menu {
 	font-size: 0.8rem !important;
 }
-/*seccion servicios*/
 .circlemain {
     background-color: $verde;
 	width: 140px;
@@ -497,6 +493,9 @@ a:hover{
     }
 }
 @media (min-width: 768px) {
+    .textnav a {
+        padding-left: 2.5rem !important;
+    }
   
     .circlemain {
         width: 200px;
@@ -526,6 +525,10 @@ a:hover{
 
 }
 @media (min-width: 992px){ 
+    .textnav a {
+        padding-left: 2.5rem !important;
+    }
+
     .bottom{
         margin-bottom: 0 !important;
     } 
@@ -549,6 +552,10 @@ a:hover{
     
 }
 @media (min-width: 1200px) { 
+    .textnav a {
+        padding-left: 2.5rem !important;
+    }
+
     .circlemain {
         width: 200px;
         height:200px;
