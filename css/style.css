@@ -1,0 +1,491 @@
+h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #684361;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bolder !important;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 30px 0;
+  letter-spacing: 3px; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #684361;
+  font-size: 40px !important;
+  padding-bottom: 10px; }
+
+section {
+  margin: 50px 0 20px 0; }
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding: 0 !important; }
+
+.container-fluid {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.logo {
+  width: 150px;
+  margin-bottom: 50px; }
+
+p {
+  text-align: justify; }
+
+a {
+  text-decoration: none;
+  color: #684361 !important; }
+
+.nav-link {
+  color: white !important; }
+
+a:hover {
+  text-decoration: none !important;
+  color: white; }
+
+.precio {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+  float: right; }
+
+/*barra menu*/
+.iso {
+  margin: 10px;
+  width: 50px; }
+
+.textnav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem; }
+  .textnav a {
+    padding-left: 2.5rem !important; }
+
+.container-fluid {
+  padding: 0; }
+
+.dropdown-menu {
+  font-size: 0.8rem !important; }
+
+/*seccion servicios*/
+.circlemain {
+  background-color: #98AA2D;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  align-content: center;
+  display: grid;
+  text-align: center;
+  margin-bottom: 10px; }
+  .circlemain a {
+    color: white !important; }
+
+.transf:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s; }
+
+.circletxt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none; }
+
+.bottom {
+  margin-bottom: 40px; }
+
+/*seccion productos*/
+.cont {
+  position: relative;
+  width: 50%; }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.container {
+  position: relative;
+  width: 50%;
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #2c1729e7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%; }
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left; }
+  .text p {
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 20px; }
+
+/*seccion blog*/
+.imgblogmain img {
+  width: 100%; }
+
+.txtblogmain h2 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: normal;
+  color: #98AA2D;
+  padding: 20px 0;
+  font-size: 1.6rem !important; }
+
+.txtblogmain p {
+  font-size: 14px;
+  text-align: justify; }
+
+.txtblogmain span {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 0; }
+  .txtblogmain span a {
+    background-color: #98AA2D; }
+
+/*footer*/
+.footer {
+  height: 100px;
+  color: grey;
+  font-size: 12px;
+  background-color: #333333;
+  margin-top: 100px; }
+  .footer ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+
+.circlemain {
+  width: 170px;
+  height: 170px; }
+
+/*page belleza*/
+.full {
+  margin: 0; }
+
+.txtserv {
+  padding: 40px 40px 0 40px !important;
+  text-align: left; }
+  .txtserv p {
+    text-align: left; }
+
+.container00 {
+  position: relative; }
+
+.image00 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.text00 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  font-family: "Playfair Display SC", serif;
+  font-size: 16px;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap; }
+  .text00 ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0; }
+    .text00 ul li {
+      font-size: 12px;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: normal;
+      padding-top: 10px; }
+
+/*overlay effect desde la derecha*/
+.overlay02 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #2c1729e7;
+  overflow: hidden;
+  height: 100%;
+  transition: .5s ease; }
+
+.container00:hover .overlay02 {
+  width: 100%;
+  left: 0; }
+
+/*overlay effect desde la izquierda*/
+.overlay03 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2c1729e7;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
+
+.container00:hover .overlay03 {
+  width: 100%; }
+
+/*overlay effect desde arriba*/
+.container01 {
+  position: relative;
+  width: 50%; }
+
+.image01 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay01 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #2c1729e7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.container01:hover .overlay01 {
+  bottom: 0;
+  height: 100%; }
+
+.text01 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  font-family: "Playfair Display SC", serif;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .text01 ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0; }
+    .text01 ul li {
+      font-size: 12px;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: normal;
+      padding-top: 10px;
+      text-align: left; }
+
+/*overlay effect grande desde la derecha*/
+.container04 {
+  position: relative;
+  width: 50%; }
+
+.image04 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay04 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #2c1729e7;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
+
+.container04:hover .overlay04 {
+  width: 100%;
+  left: 0; }
+
+/*overlay effect chico desde arriba*/
+.container05 {
+  position: relative;
+  width: 50%; }
+
+.image05 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay05 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #2c1729e7;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.container05:hover .overlay05 {
+  bottom: 0;
+  height: 100%; }
+
+.text05 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+  font-family: "Playfair Display SC", serif;
+  top: 55%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .text05 ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0; }
+    .text05 ul li {
+      font-size: 12px;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: normal;
+      padding-top: 10px;
+      text-align: left; }
+
+.text06 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  font-size: 16px;
+  font-family: "Playfair Display SC", serif;
+  top: 55%;
+  left: 43%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .text06 ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0; }
+    .text06 ul li {
+      font-size: 12px;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: normal;
+      padding-top: 10px;
+      text-align: left; }
+
+.text04 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  font-family: "Playfair Display SC", serif;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .text04 ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0; }
+    .text04 ul li {
+      font-size: 12px;
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: normal;
+      padding-top: 10px;
+      text-align: left; }
+
+@media (min-width: 576px) {
+  .logo {
+    width: 150px;
+    margin-bottom: 0; }
+  .wel {
+    font-size: 15px; } }
+
+@media (min-width: 768px) {
+  .txtblogmain {
+    margin-left: 24px !important; }
+    .txtblogmain h2 {
+      padding: 0;
+      font-size: 1.2rem !important; }
+    .txtblogmain p {
+      font-size: 14px;
+      text-align: justify; }
+    .txtblogmain span {
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px 0; }
+      .txtblogmain span a {
+        background-color: #98AA2D; } }
+
+@media (min-width: 992px) {
+  .bottom {
+    margin-bottom: 0 !important; }
+  .txtserv {
+    padding: 20px 40px 0 40px !important; }
+  .top {
+    margin-top: -50px; }
+  .logo {
+    width: 190px;
+    margin-bottom: 0; }
+  .wel {
+    font-size: 17px; }
+  .circlemain {
+    width: 200px;
+    height: 200px; } }
+
+@media (min-width: 1200px) {
+  .bottom {
+    margin-bottom: 0 !important; }
+  .top {
+    margin-top: -10px; }
+  .txtserv {
+    padding: 20px 40px 0 40px !important; }
+  .txtblogmain {
+    margin-left: 24px !important; }
+    .txtblogmain h2 {
+      padding: 0;
+      font-size: 1.6rem !important; }
+    .txtblogmain p {
+      font-size: 16px;
+      text-align: justify;
+      padding-top: 14px; }
+    .txtblogmain span {
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px 0; }
+      .txtblogmain span a {
+        background-color: #98AA2D; } }
