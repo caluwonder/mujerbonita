@@ -73,8 +73,13 @@ a:hover {
 /*seccion servicios*/
 .circlemain {
   background-color: #98AA2D;
+<<<<<<< HEAD
   width: 140px;
   height: 140px;
+=======
+  width: 150px;
+  height: 150px;
+>>>>>>> 0109a3a5d8161211dfb31d24070a54222007bad8
   border-radius: 100px;
   align-content: center;
   display: grid;
