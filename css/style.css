@@ -72,6 +72,11 @@ a:hover {
   background-color: #98AA2D;
   width: 140px;
   height: 140px;
+<<<<<<< HEAD
+=======
+  width: 150px;
+  height: 150px;
+>>>>>>> c62518f0809a81380440e6e62c89a71c389a2437
   border-radius: 100px;
   align-content: center;
   display: grid;
