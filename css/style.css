@@ -168,17 +168,17 @@ a:hover {
 
 /*footer*/
 .footer {
-  height: 380px;
   color: white;
   font-size: 12px;
   background-color: #212529;
   padding-top: 50px; }
   .footer ul {
-    display: flex;
-    justify-content: space-around;
-    width: 100%; }
+    width: 100%;
+    margin-top: 70px;
+    display: flex; }
     .footer ul li {
-      color: white; }
+      color: white;
+      list-style: none; }
     .footer ul a:hover {
       color: #98AA2D !important; }
     .footer ul a {
@@ -212,9 +212,10 @@ a:hover {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 2.75px;
-  line-height: 14px;
+  line-height: 24px;
   text-align: left;
-  transition: 1s color; }
+  transition: 1s color;
+  width: 100%; }
 
 .tag {
   align-items: flex-end;
@@ -230,7 +231,8 @@ a:hover {
 .sq {
   padding: 24px 30px !important;
   border: white 1px;
-  border-style: solid; }
+  border-style: solid;
+  margin-top: 30px; }
 
 .send {
   width: 100px;
