@@ -72,8 +72,6 @@ a:hover {
   background-color: #98AA2D;
   width: 140px;
   height: 140px;
-  width: 150px;
-  height: 150px;
   border-radius: 100px;
   align-content: center;
   display: grid;
@@ -170,15 +168,95 @@ a:hover {
 
 /*footer*/
 .footer {
-  height: 100px;
-  color: grey;
+  height: 380px;
+  color: white;
   font-size: 12px;
-  background-color: #333333;
-  margin-top: 100px; }
+  background-color: #212529;
+  padding-top: 50px; }
   .footer ul {
     display: flex;
     justify-content: space-around;
     width: 100%; }
+    .footer ul li {
+      color: white; }
+    .footer ul a:hover {
+      color: #98AA2D !important; }
+    .footer ul a {
+      color: white !important; }
+
+.icon {
+  font-size: 22px;
+  padding-left: 20px; }
+
+.footlog {
+  height: 140px; }
+
+.column {
+  display: flex;
+  flex-direction: column !important; }
+  .column a {
+    font-family: "Montserrat", sans-serif;
+    color: white !important;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2.75px;
+    line-height: 14px;
+    text-align: left;
+    transition: 1s color; }
+
+.ft {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2.75px;
+  line-height: 14px;
+  text-align: left;
+  transition: 1s color; }
+
+.tag {
+  align-items: flex-end;
+  border: none;
+  border-bottom: white solid 1px;
+  background: none;
+  height: 30px;
+  transition: 1s color; }
+
+.column a:hover {
+  color: #98AA2D !important; }
+
+.sq {
+  padding: 24px 30px !important;
+  border: white 1px;
+  border-style: solid; }
+
+.send {
+  width: 100px;
+  height: 34px;
+  padding: 3px;
+  background: #212529;
+  border-style: solid;
+  border: solid white 1px;
+  color: white;
+  transition: 1s color; }
+
+button:hover {
+  color: #98AA2D; }
+
+.by {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 10px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.by a:hover {
+  color: pink !important; }
 
 /*page belleza*/
 .full {
