@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Spa a domicilio, productos selfcare natural">
+    <meta name="keywords"  content="spa a domicilio, relajo, masaje, depilacion, belleza, facial, mujer bonita, reiki, renueva tu energia, descansa, relajate en pareja, desconectate, masaje descontracturante, masaje reductivo ">
+
+    <title>Mujer Bonita - Servicios - Belleza</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/ca26b6db37.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+		<!--Menu-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark textnav">
+			<a class="navbar-brand" href="../index.html">
+					<img class="iso" alt="Brand" src="../img/isoMb.png">
+			</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">INICIO</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						SERVICIOS
+					</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="../views/belleza.html">BELLEZA<span class="sr-only">(current)</span></a>
+							<a class="dropdown-item" href="../views/relax.html">RELAJACIÓN</a>
+							<a class="dropdown-item" href="../views/experiencias.html">EXPERIENCIAS</a>
+							<a class="dropdown-item" href="#">RESERVAS</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						PRODUCTOS
+					</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="jabones.html">JABONES</a>
+							<a class="dropdown-item" href="exfoliantes.html">EXFOLIANTES</a>
+							<a class="dropdown-item" href="#">SALES DE BAÑO</a>
+							<a class="dropdown-item" href="#">MASCARILLAS</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="blog.html">BLOG</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACTO</a>
+					</li>
+				</ul>
+			</div>
+        </nav>
+<!--Submenu filtro-->
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">todos</button>
+          <button class="btn" onclick="filterSelection('hidrata')">JABONES HIDRATANTES</button>
+          <button class="btn" onclick="filterSelection('exfolia')">JABONES EXFOLIANTES</button>
+          <button class="btn" onclick="filterSelection('clinico')">JABONES CLINICOS</button>
+        </div>
+<!--productos-->
+    <!--N1-->
+    <div class="filterDiv exfolia">
+        <div class="d-flex">
+            <!--seccion izquierda-->
+            <div class="flex-column col-5 line-t line-r">
+                <div class="tt-prod-l p1"></div>
+            </div>
+            <div class="d-column bg1">
+                <div class="tt-prod-r line-t">
+                    <h2>AVENA & COCO</h2>
+                    <p>Nº1</p>
+                    <p>Exfolia</p>
+                    <p>INGREDIENTES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, </p>
+                </div>
+            <!--seccion izquierda-->
+                <div class="d-flex flex-row line-t ">
+                    <div class="cellcontent container05 ">
+                        <img src="../img/prod/ing/avena-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios de la avena</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-l container05">
+                        <img src="../img/prod/ing/coco-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del coco</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-r line-l container05">
+                        <img src="../img/prod/ing/mantcacao-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del cacao</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--N2-->
+    <div class="filterDiv exfolia">
+        <div class="container-fluid d-flex">
+            <!--seccion izquierda-->
+            <div class="flex-column col-5 line-t line-r">
+                <div class="tt-prod-l p2"> </div>
+            </div>
+            <div class="d-column bg1">
+                <div class="tt-prod-r line-t">
+                    <h2>SAL DEL HIMALAYA & GRANADA</h2>
+                    <p>Nº2</p>
+                    <p>Exfolia</p>
+                    <p>INGREDIENTES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, </p>
+                </div>
+            <!--seccion izquierda-->
+                <div class="d-flex flex-row line-t">
+                    <div class="cellcontent container05 ">
+                        <img src="../img/prod/ing/sal-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios de la sal del himalaya</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-l container05">
+                        <img src="../img/prod/ing/miel-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios de la miel</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-r line-l container05">
+                        <img src="../img/prod/ing/coco-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del coco</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--N3-->
+    <div class="filterDiv hidrata">
+        <div class="container-fluid d-flex">
+            <!--seccion izquierda-->
+            <div class="flex-column col-5 line-t line-r">
+                <div class="tt-prod-l p3"></div>
+            </div>
+            <div class="d-column bg1">
+                <div class="tt-prod-r line-t">
+                    <h2>PALTA & ACEITE DE OLIVA</h2>
+                    <p>Nº3</p>
+                    <p>Hidrata</p>
+                    <p>INGREDIENTES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, </p>
+                </div>
+            <!--seccion izquierda-->
+                <div class="d-flex flex-row line-t">
+                    <div class="cellcontent container05">
+                        <img src="../img/prod/ing/avena-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios de la avena</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-l container05">
+                        <img src="../img/prod/ing/coco-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del coco</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-r line-l container05">
+                        <img src="../img/prod/ing/mantcacao-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del cacao</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--N4-->
+    <div class="filterDiv clinico">
+        <div class="container-fluid d-flex hidrata filterDiv">
+            <!--seccion izquierda-->
+            <div class="flex-column col-5 line-t line-r">
+                <div class="tt-prod-l p4"></div>
+            </div>
+            <div class="d-column bg1">
+                <div class="tt-prod-r line-t">
+                    <h2>ROSA MOSQUETA & COCO</h2>
+                    <p>Nº4</p>
+                    <p>Hidrata</p>
+                    <p>INGREDIENTES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, </p>
+                </div>
+            <!--seccion izquierda-->
+                <div class="d-flex flex-row line-t">
+                    <div class="cellcontent container05 ">
+                        <img src="../img/prod/ing/avena-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios de la avena</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-l container05">
+                        <img src="../img/prod/ing/coco-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del coco</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-r line-l container05">
+                        <img src="../img/prod/ing/mantcacao-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del cacao</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--N5-->
+     <div class="filterDiv clinico">
+        <div class="container-fluid d-flex hidrata filterDiv">
+            <!--seccion izquierda-->
+            <div class="flex-column col-5 line-t line-r">
+                <div class="tt-prod-l p5"></div>
+            </div>
+            <div class="d-column bg1">
+                <div class="tt-prod-r line-t">
+                    <h2>ARCILLA VERDE & TÉ</h2>
+                    <p>Nº5</p>
+                    <p>CLINICO</p>
+                    <p>INGREDIENTES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, </p>
+                </div>
+            <!--seccion izquierda-->
+                <div class="d-flex flex-row line-t">
+                    <div class="cellcontent container05 ">
+                        <img src="../img/prod/ing/avena-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios de la avena</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-l container05">
+                        <img src="../img/prod/ing/coco-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del coco</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-r line-l container05">
+                        <img src="../img/prod/ing/mantcacao-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del cacao</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--N6-->
+     <div class="filterDiv hidrata">
+        <div class="d-flex">
+            <!--seccion izquierda-->
+            <div class="flex-column col-5 line-t line-r">
+                <div class="tt-prod-l p6"></div>
+            </div>
+            <div class="d-column bg1">
+                <div class="tt-prod-r line-t">
+                    <h2>CAFÉ & COCO</h2>
+                    <p>Nº6</p>
+                    <p>Hidrata</p>
+                    <p>INGREDIENTES: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, </p>
+                </div>
+            <!--seccion izquierda-->
+                <div class="d-flex flex-row line-t">
+                    <div class="cellcontent container05 ">
+                        <img src="../img/prod/ing/cafe-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del café</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-l container05">
+                        <img src="../img/prod/ing/coco-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del coco</div>
+                        </div>
+                    </div>
+                    <div class="cellcontent line-r line-l container05">
+                        <img src="../img/prod/ing/mantcacao-s.png" class="ingimg">
+                        <div class="overlay05">
+                            <div class="text05">Beneficios del cacao</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+  <div class="row footer">
+      <div class="column col-11 offset-1 col-md-2 offset-md-1 ft align-self-center">
+          <a href="#">Quienes Somos</a>
+          <a href="#">Qué hacemos</a>
+          <a href="#">Nuestros Productos</a>
+          <a href="#">Blog</a>
+      </div>
+      <div class="col-10 offset-1 col-md-4 d-flex align-self-center column sq">
+          <span class="ft">Conoce Nuestras Novedades</span>
+          <form>
+          <div class="d-flex justify-content-between">
+              <input class="tag ft" type="name" name="Nombre" size="60" placeholder="Nombre*" aria-required="true"></input>
+          </div>
+          <div class="d-flex justify-content-between">
+              <input class="tag ft" type="email" name="email" size="60" placeholder="Email*" aria-required="true"></input>
+          </div>
+          <div class="d-flex justify-content-end">
+              <input class="send" type="submit" name="enviar"></input>
+          </div>
+          </form>
+      </div>
+      <div class="col-11 offset-1 offset-md-1 col-md-3 d-md-flex">
+          <ul class="flex-md-column">
+              <li class="ft ">
+                  <a href="https://www.instagram.com/somosmujeresbonitas/" target="blank_">Síguenos<i class="fab fa-instagram icon"></i></a>
+              </li>
+              <li class="ft">
+                  <a href="https://api.whatsapp.com/send?phone=56935658198&text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20reserva.%20" target="blank_">Hablémos<i class="fab fa-whatsapp icon"></i></a>
+              </li>
+          </ul>
+      </div>
+      <span class="col-12 by"><a href="http://www.caluwonder.com/" target="blank_">HECHO X CALUWONDER</a></span>
+  </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+     <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("filterDiv");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+   
+</body>
+</html>
