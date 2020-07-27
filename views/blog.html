@@ -8,7 +8,8 @@
     <title>Mujer Bonita - Servicios - Belleza</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/popup.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 	<!-- JS, Popper.js, and jQuery -->
@@ -50,23 +51,20 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="jabones.html">JABONES</a>
 							<a class="dropdown-item" href="exfoliantes.html">EXFOLIANTES</a>
-							<a class="dropdown-item" href="#">SALES DE BAÑO</a>
-							<a class="dropdown-item" href="#">MASCARILLAS</a>
 						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="blog.html">BLOG</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">CONTACTO</a>
+						<button id="btn-abrir-popup" class="btn-abrir-popup nav-link button">CONTACTO</button>
 					</li>
 				</ul>
 			</div>
 		</nav>
-	<section>
 	<h1>Blog</h1>
-	<div class="container d-flex justify-content-around">
-		<div  class="menu blog-img" data-animation="diagonal">
+	<div class="container-fluid row d-flex justify-content-center">
+		<div  class="menu blog-img col-12 col-md-6 col-lg-4 d-flex justify-content-around" data-animation="diagonal">
 			<ul><a href="blog-articulo.html">
 				<li><img src="../img/blog/mascarilla-blog.jpg"></li>
 				<li class="text-blog">Tratamiento Faciales Caseros, como cuidar la piel de tu rostro en casa.</li>
@@ -78,7 +76,7 @@
 				</a>	
 			</ul>
 		</div>
-		<div  class="menu blog-img" data-animation="diagonal">
+		<div class="menu blog-img col-12 col-md-6 col-lg-4" data-animation="diagonal">
 			<ul><a>
 				<li><img src="../img/blog/manos-blog.jpg"></li>
 				<li class="text-blog">Te contamos los mejores tips para el cuidado de la piel de tus manos.</li>
@@ -90,7 +88,7 @@
 				</a>	
 			</ul>
 		</div>
-		<div  class="menu blog-img" data-animation="diagonal">
+		<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
 			<ul><a>
 				<li><img src="../img/blog/piel-blog.jpg"></li>
 				<li class="text-blog">¿Cómo cuidar nuestra piel antes y después de la depilación?</li>
@@ -102,52 +100,45 @@
 				</a>	
 			</ul>
 		</div>
-	</div>
-	</section> 
-	<section>
-		<div class="container d-flex justify-content-around">
-			<div  class="menu blog-img" data-animation="diagonal">
-				<ul><a>
-					<li><img src="../img/blog/jabon-blog.jpg"></li>
-					<li class="text-blog">Te contamos TODO! sobre nuestros productos. ¿Ya los probaste?</li>
-					<li class="btn-blog">Leer más+</li>
-					<span class="border border-top"></span>
-					<span class="border border-right"></span>
-					<span class="border border-bottom"></span>
-					<span class="border border-left"></span>
-					</a>	
-				</ul>
-			</div>
-			<div  class="menu blog-img" data-animation="diagonal">
-				<ul><a>
-					<li><img src="../img/blog/natural-blog.jpg"></li>
-					<li class="text-blog">¿Sabes para que sirven y como usar los ingredientes naturales?</li>
-					<li class="btn-blog">Leer más+</li>
-					<span class="border border-top"></span>
-					<span class="border border-right"></span>
-					<span class="border border-bottom"></span>
-					<span class="border border-left"></span>
-					</a>	
-				</ul>
-			</div>
-			<div  class="menu blog-img" data-animation="diagonal">
-				<ul><a>
-					<li><img src="../img/blog/carbon-blog.jpg"></li>
-					<li class="text-blog">¿Conodes el Carbón activado? Te lo contamos todo!</li>
-					<li class="btn-blog">Leer más+</li>
-					<span class="border border-top"></span>
-					<span class="border border-right"></span>
-					<span class="border border-bottom"></span>
-					<span class="border border-left"></span>
-					</a>	
-				</ul>	
-			</div>
+		<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
+			<ul><a>
+				<li><img src="../img/blog/jabon-blog.jpg"></li>
+				<li class="text-blog">Te contamos TODO! sobre nuestros productos. ¿Ya los probaste?</li>
+				<li class="btn-blog">Leer más+</li>
+				<span class="border border-top"></span>
+				<span class="border border-right"></span>
+				<span class="border border-bottom"></span>
+				<span class="border border-left"></span>
+				</a>	
+			</ul>
 		</div>
-	</section>
-
-
+		<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
+			<ul><a>
+				<li><img src="../img/blog/natural-blog.jpg"></li>
+				<li class="text-blog">¿Sabes para que sirven y como usar los ingredientes naturales?</li>
+				<li class="btn-blog">Leer más+</li>
+				<span class="border border-top"></span>
+				<span class="border border-right"></span>
+				<span class="border border-bottom"></span>
+				<span class="border border-left"></span>
+				</a>	
+			</ul>
+		</div>
+		<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
+			<ul><a>
+				<li><img src="../img/blog/carbon-blog.jpg"></li>
+				<li class="text-blog">¿Conodes el Carbón activado? Te lo contamos todo!</li>
+				<li class="btn-blog">Leer más+</li>
+				<span class="border border-top"></span>
+				<span class="border border-right"></span>
+				<span class="border border-bottom"></span>
+				<span class="border border-left"></span>
+				</a>	
+			</ul>	
+		</div>
+			
+	</div>
 <!--footer-->
-
 <div class="row footer">
     <div class="column col-11 offset-1 col-md-2 offset-md-1 ft align-self-center">
         <a href="#">Quienes Somos</a>
@@ -182,6 +173,23 @@
     <span class="col-12 by"><a href="http://www.caluwonder.com/" target="blank_">HECHO X CALUWONDER</a></span>
 </div>
 </div>
+
+<div class="overlayform" id="overlay">
+	<div class="popup" id="popup">
+		<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+		<h3>Contáctanos</h3>
+		<form action="">
+			<div class="contenedor-inputs">
+				<input type="text" placeholder="Nombre">
+				<input type="email" placeholder="Correo">
+				<textarea type="textarea" placeholder="Escriba su mensaje" rows="6" cols="60"></textarea>
+			</div>
+			<input type="submit" class="btn-submit" value="Enviar">
+		</form>
+	</div>
+</div>
+
+<script src="../js/popup.js"></script>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

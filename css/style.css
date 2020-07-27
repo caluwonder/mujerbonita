@@ -644,9 +644,6 @@ a:hover {
   height: 100%;
   background-size: cover; }
 
-.bg4 {
-  background-color: palevioletred; }
-
 .p4 {
   background-image: url("../img/prod/j06.jpg");
   background-position: 50% 100%;
@@ -654,18 +651,12 @@ a:hover {
   height: 100%;
   background-size: cover; }
 
-.bg5 {
-  background-color: #bddfb3; }
-
 .p5 {
   background-image: url("../img/prod/j03.jpg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover; }
-
-.bg6 {
-  background-color: chocolate; }
 
 .bg7 {
   background-color: #4e3030;
@@ -826,8 +817,8 @@ hr {
   transition-delay: 0s; }
 
 /*Blog-articulo*/
-.imgblogmain {
-  width: 600px;
+.imgblogmain-blog {
+  width: 100%;
   margin-bottom: 40px; }
 
 .txtblog-articulo li {
@@ -843,7 +834,7 @@ hr {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #98AA2D;
-  font-size: 1.6rem !important;
+  font-size: 1.3rem !important;
   letter-spacing: 4px; }
 
 .divisor {
@@ -859,9 +850,18 @@ hr {
     margin-bottom: 0; }
   .wel {
     font-size: 15px;
-    text-transform: none !important; } }
+    text-transform: none !important; }
+  .txtblog-articulo h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #98AA2D;
+    font-size: 1.6rem !important;
+    letter-spacing: 4px; } }
 
 @media (min-width: 768px) {
+  .imgblogmain-blog {
+    width: 600px;
+    margin-bottom: 40px; }
   .textnav a {
     padding-left: 2.5rem !important; }
   .circlemain {

@@ -8,7 +8,8 @@
     <title>Mujer Bonita - Servicios - Belleza</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/popup.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 	<!-- JS, Popper.js, and jQuery -->
@@ -50,24 +51,22 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="jabones.html">JABONES</a>
 							<a class="dropdown-item" href="exfoliantes.html">EXFOLIANTES</a>
-							<a class="dropdown-item" href="#">SALES DE BAÑO</a>
-							<a class="dropdown-item" href="#">MASCARILLAS</a>
 						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="blog.html">BLOG</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">CONTACTO</a>
+						<button id="btn-abrir-popup" class="btn-abrir-popup nav-link button">CONTACTO</button>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	<section>
-		<div class="d-flex justify-content-center col-10 offset-1">
-			<ul class="txtblog-articulo">
+		<div class="d-flex justify-content-center ">
+			<ul class="txtblog-articulo col-10">
 				<li><h2>Tratamientos faciales caseros, </h2><h2>¿cómo cuidar la piel de tu rostro en casa?</h2></li>
-				<li><img src="../img/blogmasc.png" class="imgblogmain"></li>
+				<li><img src="../img/blogmasc.png" class="imgblogmain-blog"></li>
 				<li><p>Hacer mascarillas caseras no es tarea fácil ya que en internet circulan muchas
 					recetas que no son buenas para tu rostro, por que sí, la piel del rostro es mucho más delicada que toda 
 					la del resto del cuerpo, usar azúcar, café o miel pueden ser muy destructivos con la barrera de la piel,
@@ -81,8 +80,8 @@
 	</section>
 	<div class="col-10 offset-1 divisor"></div>
 	<section>
-		<div class="container d-flex justify-content-around">
-			<div  class="menu blog-img" data-animation="diagonal">
+		<div class="container-fluid d-flex justify-content-around row">
+			<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
 				<ul><a>
 					<li><img src="../img/blog/jabon-blog.jpg"></li>
 					<li class="text-blog">Te contamos TODO! sobre nuestros productos. ¿Ya los probaste?</li>
@@ -94,7 +93,7 @@
 					</a>	
 				</ul>
 			</div>
-			<div  class="menu blog-img" data-animation="diagonal">
+			<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
 				<ul><a>
 					<li><img src="../img/blog/natural-blog.jpg"></li>
 					<li class="text-blog">¿Sabes para que sirven y como usar los ingredientes naturales?</li>
@@ -106,7 +105,7 @@
 					</a>	
 				</ul>
 			</div>
-			<div  class="menu blog-img" data-animation="diagonal">
+			<div  class="menu blog-img col-12 col-sm-6 col-lg-4" data-animation="diagonal">
 				<ul><a>
 					<li><img src="../img/blog/carbon-blog.jpg"></li>
 					<li class="text-blog">¿Conodes el Carbón activado? Te lo contamos todo!</li>
@@ -158,6 +157,23 @@
     <span class="col-12 by"><a href="http://www.caluwonder.com/" target="blank_">HECHO X CALUWONDER</a></span>
 </div>
 </div>
+
+<div class="overlayform" id="overlay">
+	<div class="popup" id="popup">
+		<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+		<h3>Contáctanos</h3>
+		<form action="">
+			<div class="contenedor-inputs">
+				<input type="text" placeholder="Nombre">
+				<input type="email" placeholder="Correo">
+				<textarea type="textarea" placeholder="Escriba su mensaje" rows="6" cols="60"></textarea>
+			</div>
+			<input type="submit" class="btn-submit" value="Enviar">
+		</form>
+	</div>
+</div>
+
+<script src="../js/popup.js"></script>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

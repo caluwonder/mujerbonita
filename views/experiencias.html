@@ -8,7 +8,8 @@
     <title>Mujer Bonita - Servicios - Belleza</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/popup.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 	<!-- JS, Popper.js, and jQuery -->
@@ -50,15 +51,13 @@
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="jabones.html">JABONES</a>
 							<a class="dropdown-item" href="exfoliantes.html">EXFOLIANTES</a>
-							<a class="dropdown-item" href="#">SALES DE BAÑO</a>
-							<a class="dropdown-item" href="#">MASCARILLAS</a>
 						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="blog.html">BLOG</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">CONTACTO</a>
+						<button id="btn-abrir-popup" class="btn-abrir-popup nav-link button">CONTACTO</button>
 					</li>
 				</ul>
 			</div>
@@ -173,6 +172,23 @@
 		<span class="col-12 by"><a href="http://www.caluwonder.com/" target="blank_">HECHO X CALUWONDER</a></span>
 	</div>
 </div>
+
+<div class="overlayform" id="overlay">
+	<div class="popup" id="popup">
+		<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+		<h3>Contáctanos</h3>
+		<form action="">
+			<div class="contenedor-inputs">
+				<input type="text" placeholder="Nombre">
+				<input type="email" placeholder="Correo">
+				<textarea type="textarea" placeholder="Escriba su mensaje" rows="6" cols="60"></textarea>
+			</div>
+			<input type="submit" class="btn-submit" value="Enviar">
+		</form>
+	</div>
+</div>
+
+<script src="../js/popup.js"></script>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
