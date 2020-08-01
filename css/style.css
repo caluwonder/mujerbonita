@@ -859,6 +859,8 @@ hr {
     letter-spacing: 4px; } }
 
 @media (min-width: 768px) {
+  .button {
+    padding-left: 2.5rem !important; }
   .imgblogmain-blog {
     width: 600px;
     margin-bottom: 40px; }
